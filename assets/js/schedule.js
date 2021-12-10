@@ -1,6 +1,6 @@
 require("bootstrap");
 const createEl = require("./domMethods");
-const { createLoremIpsum, dateConverter } = require("./helpers");
+const { createLoremIpsum, dateConverter } = require("./helper");
 
 
 $(document).ready(function() {

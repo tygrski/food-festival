@@ -1,6 +1,6 @@
 require("bootstrap");
 const createEl = require("./domMethods");
-const createLoremIpsum = require("./helpers");
+const createLoremIpsum = require("./helper");
 
 $(document).ready(function() {
 if (window.location.href.indexOf("event") > -1) {
